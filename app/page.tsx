@@ -10,9 +10,9 @@ export default function Home() {
       <header className="max-w-6xl mx-auto px-4 sm:px-8 py-6">
         <Image src={Logo} alt="RojGar Logo" className="max-w-xs" />
       </header>
-      <section className="max-w-6xl mx-auto px-4 sm:px-8 h-screen -mt-20 grid  lg:grid-cols-2 items-center">
+      <section className="max-w-6xl mx-auto px-4 sm:px-8 h-screen -mt-20 grid  lg:grid-cols-[1fr,500px] items-center">
         <div>
-          <h1 className="capitalize text-4xl md:text-2xl font-bold">
+          <h1 className="capitalize text-4xl md:text-5xl font-bold">
             <span className="text-primary">Simplifying </span> Employment,
             Amplifying Progress
           </h1>
@@ -30,7 +30,6 @@ export default function Home() {
           src={LandingImg}
           alt="Landing Image"
           className="hidden  lg:block "
-          width={400}
         />
       </section>
     </main>
