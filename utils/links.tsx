@@ -1,3 +1,4 @@
+import exp from "constants";
 import { Plus, Briefcase, AreaChart } from "lucide-react";
 
 type NavLink = {
@@ -23,3 +24,5 @@ const links: Array<NavLink> = [
     icon: <AreaChart />,
   },
 ];
+
+export default links;
