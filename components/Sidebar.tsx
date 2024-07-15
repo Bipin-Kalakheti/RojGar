@@ -17,7 +17,7 @@ const Sidebar = () => {
         <Image
           src={Logo}
           alt="logo"
-          className="mx-auto max-w-40 cursor-pointer"
+          className="mx-auto max-w-40 cursor-pointer fill-white "
           onClick={() => redirect("/")}
         />
       </Link>
